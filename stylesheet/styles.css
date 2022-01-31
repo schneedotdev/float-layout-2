@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box; /* tells the browser to ignore borders while calculating the width */
+    box-sizing: border-box;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 header,footer {
     height: 100px;
     background: #144774;
-    clear: both;  /* says "look to the left and right, if theres anything floating, come after it" */
+    clear: both;
 }
 
 section {
