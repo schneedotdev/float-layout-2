@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box; /* tells the browser to ignore borders while calculating the width */
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 7px #000;
+}
+
+header,footer {
+    height: 100px;
+    background: #144774;
+    clear: both;  /* says "look to the left and right, if theres anything floating, come after it" */
+}
+
+section {
+    font-size: 12px
+}
+
+.hundred,
+.forty,
+.sixty,
+header,
+footer {
+    border: 3px solid #6fadd2;
+}
+
+.hundred {
+    height: 250px;
+    width: 100%;
+    background: #4e8bb8;
+}
+
+.forty,
+.sixty {
+    background: #336fa5;
+    height: 300px;
+}
+
+.forty {
+    width: 40%;
+    float: left;
+}
+
+.sixty {
+    width: 60%;
+    float: left;
+}
